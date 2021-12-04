@@ -60,23 +60,23 @@ $EndComp
 $Comp
 L 74xx:74LS32 U?
 U 2 1 619F2DA9
-P 15000 5350
-F 0 "U?" H 15000 5675 50  0000 C CNN
-F 1 "74LS32" H 15000 5584 50  0000 C CNN
-F 2 "" H 15000 5350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 15000 5350 50  0001 C CNN
-	2    15000 5350
+P 14750 4650
+F 0 "U?" H 14750 4975 50  0000 C CNN
+F 1 "74LS32" H 14750 4884 50  0000 C CNN
+F 2 "" H 14750 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 14750 4650 50  0001 C CNN
+	2    14750 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS32 U?
 U 3 1 619F404A
-P 15000 5800
-F 0 "U?" H 15000 6125 50  0000 C CNN
-F 1 "74LS32" H 15000 6034 50  0000 C CNN
-F 2 "" H 15000 5800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 15000 5800 50  0001 C CNN
-	3    15000 5800
+P 14750 5100
+F 0 "U?" H 14750 5425 50  0000 C CNN
+F 1 "74LS32" H 14750 5334 50  0000 C CNN
+F 2 "" H 14750 5100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 14750 5100 50  0001 C CNN
+	3    14750 5100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -585,12 +585,12 @@ $EndComp
 $Comp
 L Memory_EPROM:27C512 U?
 U 1 1 61B13989
-P 15850 3950
-F 0 "U?" H 15850 5231 50  0000 C CNN
-F 1 "27C512" H 15850 5140 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W15.24mm" H 15850 3950 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf" H 15850 3950 50  0001 C CNN
-	1    15850 3950
+P 16650 3850
+F 0 "U?" H 16650 5131 50  0000 C CNN
+F 1 "27C512" H 16650 5040 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 16650 3850 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf" H 16650 3850 50  0001 C CNN
+	1    16650 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -640,12 +640,12 @@ $EndComp
 $Comp
 L Interface_UART:16550 U?
 U 1 1 61B5AB85
-P 15900 7800
-F 0 "U?" H 15900 9681 50  0000 C CNN
-F 1 "16550" H 15900 9590 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 15900 7800 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/pc16550d.pdf" H 15900 7800 50  0001 C CNN
-	1    15900 7800
+P 16600 7650
+F 0 "U?" H 16600 9531 50  0000 C CNN
+F 1 "16550" H 16600 9440 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 16600 7650 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/pc16550d.pdf" H 16600 7650 50  0001 C CNN
+	1    16600 7650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -679,6 +679,178 @@ F 1 "Bus_ISA_8bit" H 19150 7526 50  0000 C CNN
 F 2 "" H 19150 5850 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 19150 5850 50  0001 C CNN
 	1    19150 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Bus_ISA_8bit J?
+U 1 1 61A17535
+P 21300 5800
+F 0 "J?" H 21300 7567 50  0000 C CNN
+F 1 "Bus_ISA_8bit" H 21300 7476 50  0000 C CNN
+F 2 "" H 21300 5800 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 21300 5800 50  0001 C CNN
+	1    21300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Bus_ISA_8bit J?
+U 1 1 61A1AF7B
+P 23900 6100
+F 0 "J?" H 23900 7867 50  0000 C CNN
+F 1 "Bus_ISA_8bit" H 23900 7776 50  0000 C CNN
+F 2 "" H 23900 6100 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 23900 6100 50  0001 C CNN
+	1    23900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Bus_ISA_8bit J?
+U 1 1 61A1FBCF
+P 26550 6000
+F 0 "J?" H 26550 7767 50  0000 C CNN
+F 1 "Bus_ISA_8bit" H 26550 7676 50  0000 C CNN
+F 2 "" H 26550 6000 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 26550 6000 50  0001 C CNN
+	1    26550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q?
+U 1 1 61A5ECE2
+P 4950 3850
+F 0 "Q?" H 5140 3896 50  0000 L CNN
+F 1 "2N3904" H 5140 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5150 3775 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 4950 3850 50  0001 L CNN
+	1    4950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 61A79494
+P 5050 4450
+F 0 "D?" H 5050 4667 50  0000 C CNN
+F 1 "1N4148" H 5050 4576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 4275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5050 4450 50  0001 C CNN
+	1    5050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface:8255 U?
+U 1 1 61A7C105
+P 14250 12250
+F 0 "U?" H 14250 14031 50  0000 C CNN
+F 1 "8255" H 14250 13940 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 14250 12550 50  0001 C CNN
+F 3 "http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf" H 14250 12550 50  0001 C CNN
+	1    14250 12250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_Programmable:GAL16V8 U?
+U 1 1 61A82135
+P 5550 12500
+F 0 "U?" H 5550 13381 50  0000 C CNN
+F 1 "GAL16V8" H 5550 13290 50  0000 C CNN
+F 2 "" H 5550 12500 50  0001 C CNN
+F 3 "" H 5550 12500 50  0001 C CNN
+	1    5550 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 1 1 61A973D5
+P 9300 9550
+F 0 "U?" H 9300 9875 50  0000 C CNN
+F 1 "74LS02" H 9300 9784 50  0000 C CNN
+F 2 "" H 9300 9550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 9300 9550 50  0001 C CNN
+	1    9300 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 9550 9850 9550
+$Comp
+L 74xx:74LS00 U?
+U 3 1 61AFCB12
+P 1200 3150
+F 0 "U?" H 1200 3475 50  0000 C CNN
+F 1 "74LS00" H 1200 3384 50  0000 C CNN
+F 2 "" H 1200 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1200 3150 50  0001 C CNN
+	3    1200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2500 1550 3150
+Wire Wire Line
+	1550 3150 1500 3150
+Connection ~ 1550 2500
+$Comp
+L 74xx:74LS154 U?
+U 1 1 61B09471
+P 4900 5950
+F 0 "U?" H 4900 7131 50  0000 C CNN
+F 1 "74LS154" H 4900 7040 50  0000 C CNN
+F 2 "" H 4900 5950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS154" H 4900 5950 50  0001 C CNN
+	1    4900 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS154 U?
+U 1 1 61B0EF34
+P 11300 12750
+F 0 "U?" H 11300 13931 50  0000 C CNN
+F 1 "74LS154" H 11300 13840 50  0000 C CNN
+F 2 "" H 11300 12750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS154" H 11300 12750 50  0001 C CNN
+	1    11300 12750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 2 1 61B97E25
+P 14800 5700
+F 0 "U?" H 14800 6025 50  0000 C CNN
+F 1 "74LS32" H 14800 5934 50  0000 C CNN
+F 2 "" H 14800 5700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 14800 5700 50  0001 C CNN
+	2    14800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 3 1 61B98E6F
+P 14800 6150
+F 0 "U?" H 14800 6475 50  0000 C CNN
+F 1 "74LS32" H 14800 6384 50  0000 C CNN
+F 2 "" H 14800 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 14800 6150 50  0001 C CNN
+	3    14800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Audio:LM386 U?
+U 1 1 61BAB46C
+P 18300 10400
+F 0 "U?" H 18644 10446 50  0000 L CNN
+F 1 "LM386" H 18644 10355 50  0000 L CNN
+F 2 "" H 18400 10500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 18500 10600 50  0001 C CNN
+	1    18300 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS374 U?
+U 1 1 61BD6860
+P 17400 12550
+F 0 "U?" H 17400 13531 50  0000 C CNN
+F 1 "74LS374" H 17400 13440 50  0000 C CNN
+F 2 "" H 17400 12550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS374" H 17400 12550 50  0001 C CNN
+	1    17400 12550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
