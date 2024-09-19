@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:z80-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -13,4 +14,161 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L 74xx:74LS154 U?
+U 1 1 66EB513C
+P 7450 3800
+F 0 "U?" H 7200 4650 50  0000 C CNN
+F 1 "74LS154" H 7700 4650 50  0000 C CNN
+F 2 "" H 7450 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS154" H 7450 3800 50  0001 C CNN
+	1    7450 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 1 1 66EB535E
+P 5950 3100
+F 0 "U?" H 5950 3425 50  0000 C CNN
+F 1 "74LS32" H 5950 3334 50  0000 C CNN
+F 2 "" H 5950 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 5950 3100 50  0001 C CNN
+	1    5950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 2 1 66EB54DD
+P 5950 3700
+F 0 "U?" H 5950 4025 50  0000 C CNN
+F 1 "74LS32" H 5950 3934 50  0000 C CNN
+F 2 "" H 5950 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 5950 3700 50  0001 C CNN
+	2    5950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 5 1 66EB56B3
+P 5950 4350
+F 0 "U?" V 5583 4350 50  0000 C CNN
+F 1 "74LS32" V 5674 4350 50  0000 C CNN
+F 2 "" H 5950 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 5950 4350 50  0001 C CNN
+	5    5950 4350
+	0    1    1    0   
+$EndComp
+Text GLabel 5650 3800 0    50   Input ~ 0
+WR
+Text GLabel 5650 3600 0    50   Input ~ 0
+IORQ
+Text GLabel 5650 3000 0    50   Input ~ 0
+IORQ
+Wire Wire Line
+	6250 3100 6450 3100
+Wire Wire Line
+	6450 3100 6450 3400
+Wire Wire Line
+	6450 3700 6250 3700
+Wire Wire Line
+	6450 3400 6650 3400
+Wire Wire Line
+	6650 3400 6650 3700
+Wire Wire Line
+	6650 3700 6950 3700
+Connection ~ 6450 3400
+Wire Wire Line
+	6450 3400 6450 3700
+Text GLabel 5650 3200 0    50   Input ~ 0
+RD
+$Comp
+L power:VCC #PWR?
+U 1 1 66EB5AAD
+P 7450 2800
+F 0 "#PWR?" H 7450 2650 50  0001 C CNN
+F 1 "VCC" H 7467 2973 50  0000 C CNN
+F 2 "" H 7450 2800 50  0001 C CNN
+F 3 "" H 7450 2800 50  0001 C CNN
+	1    7450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66EB5B66
+P 7450 4900
+F 0 "#PWR?" H 7450 4650 50  0001 C CNN
+F 1 "GND" H 7455 4727 50  0000 C CNN
+F 2 "" H 7450 4900 50  0001 C CNN
+F 3 "" H 7450 4900 50  0001 C CNN
+	1    7450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66EB5BC0
+P 5450 4350
+F 0 "#PWR?" H 5450 4100 50  0001 C CNN
+F 1 "GND" V 5455 4222 50  0000 R CNN
+F 2 "" H 5450 4350 50  0001 C CNN
+F 3 "" H 5450 4350 50  0001 C CNN
+	1    5450 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 66EB5BF9
+P 6450 4350
+F 0 "#PWR?" H 6450 4200 50  0001 C CNN
+F 1 "VCC" V 6467 4478 50  0000 L CNN
+F 2 "" H 6450 4350 50  0001 C CNN
+F 3 "" H 6450 4350 50  0001 C CNN
+	1    6450 4350
+	0    1    1    0   
+$EndComp
+Text Notes 5950 4900 0    50   ~ 0
+IO Address Decoding Circuit
+$Comp
+L 74xx:74LS373 U?
+U 1 1 66EB5D32
+P 9950 4950
+F 0 "U?" H 9950 5928 50  0000 C CNN
+F 1 "74LS373" H 9950 5837 50  0000 C CNN
+F 2 "" H 9950 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 9950 4950 50  0001 C CNN
+	1    9950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS374 U?
+U 1 1 66EB5DFE
+P 4550 5450
+F 0 "U?" H 4550 6428 50  0000 C CNN
+F 1 "74LS374" H 4550 6337 50  0000 C CNN
+F 2 "" H 4550 5450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS374" H 4550 5450 50  0001 C CNN
+	1    4550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS244 U?
+U 1 1 66EB5EDD
+P 9400 2700
+F 0 "U?" H 9400 3678 50  0000 C CNN
+F 1 "74LS244" H 9400 3587 50  0000 C CNN
+F 2 "" H 9400 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 9400 2700 50  0001 C CNN
+	1    9400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_UART:MAX232 U?
+U 1 1 66EB602B
+P 2700 2550
+F 0 "U?" H 2700 3928 50  0000 C CNN
+F 1 "MAX232" H 2700 3837 50  0000 C CNN
+F 2 "" H 2750 1500 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 2700 2650 50  0001 C CNN
+	1    2700 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
